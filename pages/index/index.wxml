@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view style="flex-direction:row;display: flex;"> 
+  <button type="default" size="{{defaultSize}}" loading="{{false}}" plain="{{plain}}"
+    disabled="{{false}}" bindtap="buttonClick"> 1
+  </button>
+  <button type="default" size="{{defaultSize}}" loading="{{false}}" plain="{{plain}}"
+    disabled="{{false}}" bindtap="buttonClick"> 2
+  </button>
+</view>
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+</view>

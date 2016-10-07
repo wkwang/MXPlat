@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/today/today",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/button/button"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#fff",
+    "selectedColor":"#ff0",
+    "backgroundColor":"#99CCFF",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath": "pages/today/today",
+        "iconPath":"res/icon/schedule_normal.png",
+        "selectedIconPath":"res/icon/schedule_select.png",
+        "text":"当天任务"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text":"其他"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"其他2"
+      }
+    ]
+  }
+}

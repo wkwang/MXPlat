@@ -1,0 +1,5 @@
+<view class="container">
+<view class="flex-item bc_green">
+    <text/>{{time}}
+</view>
+</view>
